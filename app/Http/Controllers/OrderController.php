@@ -67,6 +67,7 @@ class OrderController extends Controller
     $order->metadata = [
       'course_id' => $course['id'],
       'course_name' => $course['name'],
+      'course_slug' => $course['slug'],
       'course_price' => $course['price'],
       'course_thumbnail' => $course['thumbnail'],
       'course_level' => $course['level']
